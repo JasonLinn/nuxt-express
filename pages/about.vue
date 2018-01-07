@@ -10,13 +10,13 @@
     </div>
     <ul class="picbox">
       <li>
-        <div class="pic wow fadeInUp"><img class="rwd-img" src="images/about/about3.jpg" alt="衿日林民宿-冬山河親水公園"/></div>
+        <div class="pic wow fadeInUp"><img class="rwd-img" src="~/assets/images/about/about3.jpg" alt="衿日林民宿-冬山河親水公園"/></div>
       </li>
       <li>
-        <div class="pic wow fadeInUp"><img class="rwd-img" src="images/about/about2.jpg" alt="衿日林民宿-冬山河"/></div>
+        <div class="pic wow fadeInUp"><img class="rwd-img" src="~/assets/images/about/about2.jpg" alt="衿日林民宿-冬山河"/></div>
       </li>
       <li>
-        <div class="pic wow fadeInUp"><img class="rwd-img" src="images/about/about6.jpg" alt="衿日林民宿-綠油油的稻田"/></div>
+        <div class="pic wow fadeInUp"><img class="rwd-img" src="~/assets/images/about/about6.jpg" alt="衿日林民宿-綠油油的稻田"/></div>
       </li>
     </ul>
     <div class="aboutbox wow fadeInUp">
@@ -24,13 +24,13 @@
     </div>
     <ul class="picbox">
       <li>
-        <div class="pic wow fadeInUp"><img class="rwd-img" src="images/about/about4.jpg" alt="衿日林民宿-心靈SPA"/></div>
+        <div class="pic wow fadeInUp"><img class="rwd-img" src="~/assets/images/about/about4.jpg" alt="衿日林民宿-心靈SPA"/></div>
       </li>
       <li>
-        <div class="pic wow fadeInUp"><img class="rwd-img" src="images/about/about5.jpg" alt="衿日林民宿-黎明的晨曦"/></div>
+        <div class="pic wow fadeInUp"><img class="rwd-img" src="~/assets/images/about/about5.jpg" alt="衿日林民宿-黎明的晨曦"/></div>
       </li>
       <li>
-        <div class="pic wow fadeInUp"><img class="rwd-img" src="images/about/about7.jpg" alt="衿日林民宿-黃昏的夕陽"/></div>
+        <div class="pic wow fadeInUp"><img class="rwd-img" src="~/assets/images/about/about7.jpg" alt="衿日林民宿-黃昏的夕陽"/></div>
       </li>
     </ul>
   </div>

@@ -21,6 +21,7 @@ export default {
   asyncData ({ params, error }) {
     return axios.get('/api/users/' + params.id)
       .then((res) => {
+        // console.log(res,'user');
         return { user: res.data }
       })
       .catch((e) => {
@@ -28,6 +29,7 @@ export default {
       })
   },
   head () {
+    // console.log(res,'user');
     return {
       title: `User: ${this.user.name}`
     }

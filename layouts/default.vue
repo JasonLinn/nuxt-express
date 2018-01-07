@@ -1,22 +1,25 @@
 <template>
   <div>
     <nuxt/>
-    <!-- <my-footer/> -->
+    <!-- <Header/> -->
+    <bottom/>
   </div>
 </template>
 
 <script>
-import MyFooter from '~/components/Footer.vue'
+import Header from '~/components/Header.vue'
+import bottom from '~/components/Footer.vue'
 
 export default {
   components: {
-    MyFooter
+    // Header,
+    bottom
   }
 }
 </script>
 
 <style>
-.container
+/*.container
 {
   margin: 0;
   width: 100%;
@@ -48,5 +51,5 @@ export default {
   font-weight: 300;
   font-size: 2.5em;
   margin: 0;
-}
+}*/
 </style>

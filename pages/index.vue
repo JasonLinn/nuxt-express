@@ -4,6 +4,7 @@
         <div class="logo"><img class="rwd-img" src="~assets/images/logo-o.png"/></div>
         <h1 class="title"><span>溫馨服務情</span><span>窩心衿日林</span></h1>
         <div class="gobtn"><a href="about">進入網站</a></div>
+        <nuxt-link to="/about">進入網站</nuxt-link>
         <div class="iconbox">
           <ul>
             <li><a>
@@ -60,8 +61,11 @@ import axios from '~/plugins/axios'
 
 export default {
   async asyncData () {
-    let { data } = await axios.get('/api/users')
-    return { users: data }
+    // let { data } = await axios.get('/api/users');
+    let { data } = await axios.get('/api/news');
+    console.log(data,'news');
+    // console.log(data,'user');
+    return { news: data }
   },
   head () {
     return {
